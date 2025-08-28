@@ -1,0 +1,8 @@
+precision in singles is about 10^16
+  be super careful when taking differences in small numbers
+
+Double = 2x Single
+8 exp vs 11 exp,
+23 mantisa vs 52 mantissa
+
+Numerical Derivative 
