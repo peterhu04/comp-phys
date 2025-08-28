@@ -6,3 +6,6 @@ Double = 2x Single
 23 mantisa vs 52 mantissa
 
 Numerical Derivative 
+- want to find right dx to always maximize precision accross the actual answer and the round off error
+- dx = sqrt(epsilon(f(x)/f''(x)))
+- very easy for it to be much better to use 10e-2 instead of 10-16 for max accuracy
