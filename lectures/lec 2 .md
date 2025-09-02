@@ -8,3 +8,9 @@ round off error is serious business
 Interpolation!
 - Extrapolate is when you infer data outside the function
 - interpolation is between given points
+
+Interpolation:
+- Laziest is just round to nearest number
+- better is weighted average from two closest (aka linear interp)
+- assuming smooth (well defined by taylors)
+- - test
