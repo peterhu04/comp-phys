@@ -27,3 +27,10 @@ Interpolation:
   - cubic splines are so common, usually just call them splines
   - typically require second deriv is cts so first deriv is guarunteed to be smooth.
   - commonly set $f'' = 0$ on the edges
+
+- Using splines:
+  - if you think your function is smooth, but it isnt, then it will introduce ugly wiggles, size scaling with de-smoothity
+
+Rational Functions
+- useful when function has poles
+  - $f(x) = \frac{1}{1+x^2}$
