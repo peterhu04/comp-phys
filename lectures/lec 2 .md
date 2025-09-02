@@ -13,4 +13,4 @@ Interpolation:
 - Laziest is just round to nearest number
 - better is weighted average from two closest (aka linear interp)
 - assuming smooth (well defined by taylors)
-- - test
+  - test
