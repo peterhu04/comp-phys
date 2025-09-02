@@ -13,4 +13,7 @@ Interpolation:
 - Laziest is just round to nearest number
 - better is weighted average from two closest (aka linear interp)
 - assuming smooth (well defined by taylors)
-  - test
+  - try quadratic
+  - do not pick closest three cause u'll definitely get jumps :3
+  - what about cubic?
+    - well now you need 4 points, nearest four points will not cause jumps assuming you limit it to go through points.
