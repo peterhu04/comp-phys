@@ -17,6 +17,6 @@ Numerical Derivative
 
 Numerical Deriv cont
 
-using $f'(x) = [f(x+dx) - f(x-dx)]/2dx$,
+using $f'(x) = \frac{[f(x+dx) - f(x-dx)]}{2dx}$,
 we get error on order dx^2f''', 3rd order, pick cube root of digits for precision
 $\epsilon$
