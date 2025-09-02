@@ -9,9 +9,10 @@ Double = 2x Single
 
 Numerical Derivative 
 - want to find right dx to always maximize precision accross the actual answer and the round off error
-- dx = sqrt(epsilon(f(x)/f''(x)))
+- dx = sqrt(epsilon(f(x)/f''(x))) is better
 - very easy for it to be much better to use 10e-2 instead of 10-16 for max accuracy
 
 
 |||||||||||||||||||||||| LECTURE 2 ||||||||||||||||||||||||
 
+Numerical Deriv cont
