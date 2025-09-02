@@ -17,3 +17,13 @@ Interpolation:
   - do not pick closest three cause u'll definitely get jumps :3
   - what about cubic?
     - well now you need 4 points, nearest four points will not cause jumps assuming you limit it to go through points.
+
+- try a polynomial thats 0 at all points but 1
+  - can look in notes how to do, basically tkae x-x_n at all points need to be zero
+ 
+- back to cubics:
+  - they were cts. What about the derivs?
+  - def splines: first n derivates are forced to be continuous
+  - cubic splines are so common, usually just call them splines
+  - typically require second deriv is cts so first deriv is guarunteed to be smooth.
+  - commonly set $f'' = 0$ on the edges
