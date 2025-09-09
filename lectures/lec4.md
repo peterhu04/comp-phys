@@ -31,3 +31,9 @@ Romberg Integration:
 - scipy.integrate.romb
 - scipy.integrate.romberg
 - help(romberg)
+
+
+Indefinite Integral
+- y = 1/x -> dy = -1/x^2 dx -> dx = dy*-x^2 = dy/y^2
+- integrate wrt y
+
