@@ -30,3 +30,4 @@ Romberg Integration:
 - built into scipy
 - scipy.integrate.romb
 - scipy.integrate.romberg
+- help(romberg)
