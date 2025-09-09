@@ -15,3 +15,7 @@ when integrating using quadratics ie simpsons, need to set integration points to
 - 2 is the order of poly
 
 even order polynomials
+
+Error Estimation:
+- pickk order, then vary step till acc is good
+- dopare f(4dx) and f(2dx), do the error change as expected? if not maybe try smaller step
