@@ -33,4 +33,13 @@ Romberg Integration:
 Indefinite Integral
 - y = 1/x -> dy = -1/x^2 dx -> dx = dy*-x^2 = dy/y^2
 - integrate wrt y
+- scipy quad
+
+Variable Step Size
+- often only a few poles where need to worry about high order and big dx.
+- keep track of the error as you integrate.
+- then subdivide and do those parts separate until the work.
+  - work as in the error gets to be less than a requested error, since splitting into mukltiple parts, each indiv part should be less than err/2
+
+
 
