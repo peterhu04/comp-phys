@@ -1,9 +1,6 @@
-Legendre Polynomials
+Legendre Polynomials and use for integration
 
-and use for integration
-
-sum of weights should be # of points -1
-  - =num of intervals
+sum of weights should be # of points -1 (=num of intervals)
 
 Pnc_n = f
 c_n = P_n^-1f
