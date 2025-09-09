@@ -22,3 +22,11 @@ Error Estimation:
 
 - for quadratic, factor 2 dx -> factor 16 in error
 - error should usually be less than difference of f(dx) and f(2dx)
+
+
+Romberg Integration:
+- get better things in higher order
+- int from -a to a, do a bunch of coarse integrals, use that to estimate high order of taylors, and cancel a bunch of terms.
+- built into scipy
+- scipy.integrate.romb
+- scipy.integrate.romberg
