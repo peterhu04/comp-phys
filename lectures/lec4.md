@@ -21,3 +21,4 @@ Error Estimation:
 - dopare f(4dx) and f(2dx), do the error change as expected? if not maybe try smaller step
 
 - for quadratic, factor 2 dx -> factor 16 in error
+- error should usually be less than difference of f(dx) and f(2dx)
