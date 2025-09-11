@@ -41,5 +41,11 @@ Variable Step Size
 - then subdivide and do those parts separate until the work.
   - work as in the error gets to be less than a requested error, since splitting into mukltiple parts, each indiv part should be less than err/2
 
-
+def simp_adaptive(f,a,b,tol):
+  val,err = simp_step(f,a,b)
+  if err<tol:
+    return val
+  else:
+    mid = (a+b)/2
+    return simp_adaptive(f,a,mid,tol/2)+simp_adaptive(f,mid,b,tol/2)
 
